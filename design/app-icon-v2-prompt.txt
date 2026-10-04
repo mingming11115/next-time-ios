@@ -1,0 +1,11 @@
+Generated with the built-in image_gen tool.
+Design concept: an old invitation loops back, then launches into action. Pink sculpted paper on near-black; no text.
+
+Use case: logo-brand.
+Create ONE finished premium iPhone home-screen app icon for a Chinese app called “下次一定” (old casual promises become real invitations). This is final square icon artwork, not a presentation mockup.
+
+1024 x 1024 square composition. Opaque edge-to-edge near-black background #141414, absolutely square canvas with no pre-rounded outer corners. Center a large, distinctive single sculptural symbol in warm vivid pink #FE7B9B. Symbol idea: an invitation card / wide folded paper ribbon curling once into a friendly open loop, then the upper-right end unfolds into a bold diagonal launch gesture. Suggest revisiting an old promise and finally sending it. The loop and upward motion must belong to ONE beautifully continuous thick folded form, not separate pictograms. It should feel like a bespoke industrial designer’s icon, with a memorable silhouette and a small deliberate dark negative-space opening. Avoid a conventional paper airplane silhouette, circular refresh arrows, clocks, calendars, hearts, rocket ships, or chat bubbles.
+
+Style: minimal contemporary product design, crisp sculpted geometry, thick rounded edges, restrained satin paper-like material with softly modeled bevels and one purposeful fold. Predominantly the exact warm pink #FE7B9B with subtly lighter lit surfaces and a dark pink fold, never fluorescent purple or yellow. Very gentle dimensionality, no excessive gloss, no chrome, no glass, no fuzzy glow, no gradients in the black background. Front-on orthographic icon view, no tilted canvas.
+
+Composition: symbol occupies about 68% of canvas, visually centered with balanced negative space, full silhouette stays well inside system icon crop. Chunky geometry and thick strokes readable at 60px. Beautiful and confident, warm playful restraint. No text, no letters, no digits, no border, no watermark, no surrounding scene, no phone, no separate rounded-square tile or drop shadow outside an icon. Output the single clean square image.

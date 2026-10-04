@@ -4,6 +4,10 @@
 
 界面主色为参考图取样的 `#FE7B9B`，保留自定义天、小时、分钟，以及手动标记邀约状态的流程。
 
+Build 3 使用黑底粉色回环桌面图标。生成原图保存在 `design/app-icon-v2.png`，发布资源为 `NextTime/Assets.xcassets/AppIcon.appiconset/AppIcon.png`（1024 × 1024、无透明通道）。
+
+<img src="NextTime/Assets.xcassets/AppIcon.appiconset/AppIcon.png" alt="黑底粉色回环 App 图标" width="128">
+
 ## 项目
 
 - Xcode 项目：`NextTime.xcodeproj`
@@ -16,7 +20,7 @@
 
 ## IPA 安装包
 
-`releases/NextTime-1.0-2.ipa` 是已签名的开发版安装包；校验值和签名有效期见同目录的 `.sha256`、`.json` 文件。
+`releases/NextTime-1.0-3.ipa` 是已签名的开发版安装包；校验值和签名有效期见同目录的 `.sha256`、`.json` 文件。
 
 当前包仅授权已经登记的 1 台 iPhone，最低支持 iOS 17。签名有效期至 **2026-10-11 00:05:35（北京时间）**。其他设备需使用自己的 Xcode 团队重新签名。IPA 不能像普通下载文件一样在 Safari 中直接点开安装。
 
@@ -27,7 +31,7 @@
 DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer xcrun devicectl list devices
 
 # 替换 IPHONE_IDENTIFIER 为手机标识，覆盖更新会保留该 App 的数据容器
-python3 scripts/install_ipa.py releases/NextTime-1.0-2.ipa --device IPHONE_IDENTIFIER --launch
+python3 scripts/install_ipa.py releases/NextTime-1.0-3.ipa --device IPHONE_IDENTIFIER --launch
 ```
 
 手机需信任这台 Mac，并开启开发者模式。也可以通过 Apple Configurator 导入 IPA。
@@ -50,7 +54,8 @@ python3 scripts/package_ipa.py
 ## 检查
 
 - Xcode 实机目标 Debug 构建成功。
-- 2026-10-04 已通过 devicectl 安装到连接的 iPhone 16 Pro，并成功启动。
+- Build 2 于 2026-10-04 通过 devicectl 安装到连接的 iPhone 16 Pro，并成功启动。
+- Build 3 已完成新图标构建、IPA 签名与解包完整性校验。
 - 本地资源引用和 JavaScript 语法检查通过。
 - 可用 `node --check NextTime/Web/app.js` 检查交互脚本语法；打包脚本负责 IPA 完整性与签名检查。
 

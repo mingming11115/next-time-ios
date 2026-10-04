@@ -1,0 +1,14 @@
+{
+  "file": "NextTime-1.0-3.ipa",
+  "displayName": "下次一定",
+  "bundleIdentifier": "com.nexttime.pocket.l01a10115",
+  "version": "1.0",
+  "build": "3",
+  "minimumIOSVersion": "17.0",
+  "signingType": "development",
+  "registeredDeviceCount": 1,
+  "provisioningExpiresUTC": "2026-10-10T16:05:35+00:00",
+  "provisioningExpiresAsiaShanghai": "2026-10-11T00:05:35+08:00",
+  "sha256": "8ad5839f001d082bd8572d90edb7b072ca1ba725f491823d7cfaae0a6382f99e",
+  "sizeBytes": 1249731
+}
