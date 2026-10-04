@@ -1,0 +1,15 @@
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+*.xcarchive/
+*.dSYM/
+*.ipa
+!releases/*.ipa
+*.mobileprovision
+*.p12
+*.p8
+*.key
+*.pem
+__pycache__/

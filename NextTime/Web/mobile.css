@@ -1,0 +1,36 @@
+:root{color-scheme:light dark;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;background:light-dark(#f2f1f3,#111011);color:light-dark(#1b181c,#f6f3f7)}
+*{box-sizing:border-box}body{margin:0}button{cursor:pointer;touch-action:manipulation}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #b84b6d;outline-offset:3px}
+#nexttime-modern{padding:0;min-height:100svh}
+#nexttime-modern .nt-phone{max-width:520px;border:0;border-radius:0;min-height:100svh;overflow:visible;display:block}
+#nexttime-modern .nt-shell{min-height:100svh}
+#nexttime-modern .nt-screen{padding-top:max(24px,env(safe-area-inset-top));padding-left:max(22px,env(safe-area-inset-left));padding-right:max(22px,env(safe-area-inset-right));padding-bottom:12px}
+#nexttime-modern [data-navigation]{position:sticky;bottom:0;z-index:2;background:var(--nt-bg)}
+#nexttime-modern .nt-nav-area{padding-bottom:max(12px,env(safe-area-inset-bottom));padding-top:10px}
+#nexttime-modern .nt-homebar{display:none}
+#nexttime-modern .nt-actions{padding-bottom:max(12px,env(safe-area-inset-bottom))}
+#nexttime-modern .nt-overlay{position:fixed;inset:0;max-width:520px;margin:auto;z-index:10;padding-top:max(48px,env(safe-area-inset-top));padding-bottom:0;align-items:flex-end;overflow-y:auto;overscroll-behavior:contain}
+#nexttime-modern .nt-sheet{max-height:calc(100dvh - 48px);overflow-y:auto;overscroll-behavior:contain;border-radius:32px 32px 0 0;padding-bottom:max(24px,env(safe-area-inset-bottom))}
+#nexttime-modern .nt-quote,#nexttime-modern .nt-eyebrow,#nexttime-modern .nt-textbutton,#nexttime-modern .nt-filter,#nexttime-modern .nt-person,#nexttime-modern .nt-label{font-size:14px}
+#nexttime-modern .nt-caption,#nexttime-modern .nt-duration,#nexttime-modern .nt-card-date,#nexttime-modern .nt-draft-label,#nexttime-modern .nt-hint,#nexttime-modern .nt-duration-note,#nexttime-modern .nt-nav-button,#nexttime-modern .nt-edit-label{font-size:12px}
+#nexttime-modern .nt-primary,#nexttime-modern .nt-secondary{font-size:16px}
+#nexttime-modern .nt-letter-copy{font-size:16px}
+#nexttime-modern .nt-letter-info p{font-size:14px}
+#nexttime-modern .nt-time{padding-left:2px;padding-right:2px;font-size:12px}
+#nexttime-modern .nt-card-foot{flex-wrap:wrap;row-gap:12px}
+#nexttime-modern .nt-card-foot .nt-duration{flex:1;min-width:100px}
+#nexttime-modern .nt-times{gap:1px}
+#nexttime-modern .nt-toolbar{flex-wrap:wrap}
+.install-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;max-width:520px;margin:auto;padding:12px 22px;background:#fe7b9b;color:#29181f;font-size:13px}
+.install-bar[hidden],.device-notice[hidden]{display:none}
+.install-bar button{font:inherit;min-width:56px;min-height:44px;background:#251f25;color:#fff5f8;border:0;border-radius:24px}
+.device-notice{padding:12px 18px;background:#ffe2e8;color:#56192a;font-size:14px}
+#install-guide{width:calc(100% - 32px);max-width:390px;padding:26px;border:0;border-radius:28px;background:light-dark(#fff,#222022);color:light-dark(#1b181c,#f6f3f7);font-size:16px;line-height:1.7}
+#install-guide::backdrop{background:#14101488}
+#install-guide h2{font-size:24px;margin:0 0 12px}
+#install-guide p{margin:10px 0}
+#install-guide ol{padding-left:22px}
+#install-guide li{margin-bottom:12px}
+#install-guide .install-note{font-size:13px;color:light-dark(#6b636d,#b9b2bc)}
+#install-guide button{width:100%;min-height:48px;border:0;border-radius:24px;background:#fe7b9b;color:#29181f;font:inherit;margin-top:12px}
+@media(display-mode:standalone){#install-bar{display:none!important}}
+@media(max-width:360px){#nexttime-modern .nt-screen{padding-left:16px;padding-right:16px}#nexttime-modern .nt-hero h1{font-size:28px}#nexttime-modern .nt-time-panel{padding-left:10px;padding-right:10px}#nexttime-modern .nt-time{font-size:12px}#nexttime-modern .nt-card-date{max-width:100px;text-align:right}}

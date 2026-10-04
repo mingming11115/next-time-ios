@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f2f1f3" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111011" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="下次一定">
+  <meta name="nexttime-shell" content="v1">
+  <meta name="description" content="随手记下想见的人和想做的事，刚好有空时，兑现一个下次。">
+  <title>下次一定</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23fe7b9b'/%3E%3Cpath d='M21 43 43 21M21 21h22v22' fill='none' stroke='%2329181f' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./app.css">
+  <link rel="stylesheet" href="./mobile.css">
+  <script defer src="./lucide.min.js"></script>
+  <script defer src="./device.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <div id="storage-notice" class="device-notice" role="alert" hidden></div>
+  <div id="nexttime-modern" aria-label="下次一定">
+    <div class="nt-phone" data-phone>
+      <div class="nt-shell" data-shell>
+        <main class="nt-screen" data-screen></main>
+        <div data-navigation></div>
+      </div>
+      <div class="nt-overlay" data-sheet hidden></div>
+    </div>
+  </div>
+  <noscript>请开启 Safari 的 JavaScript 后使用「下次一定」。</noscript>
+</body>
+</html>
